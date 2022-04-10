@@ -1,0 +1,4 @@
+<Items>
+    <Item AdjustmentType="ADJUSTMENT" ItemID="717185" OrganizationCode="SAKS" ProductClass="" Quantity="10" ShipNode="Node1234" SupplyType="ONHAND" UnitOfMeasure="EACH"  />
+    <Item AdjustmentType="ADJUSTMENT" ItemID="717186" OrganizationCode="SAKS" ProductClass="" Quantity="11" ShipNode="Node5678" SupplyType="ONHAND" UnitOfMeasure="EACH"  />
+</Items>

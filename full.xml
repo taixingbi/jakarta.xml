@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items ApplyDifferences="Y" CompleteInventoryFlag="N" ReasonCode=" " ReasonText=" " ShipNode="7124460" YantraMessageGroupID="15e7b932-6515-4439-ac1c-0d7a6a518a8a">
+    <Item InventoryOrganizationCode="SAKS" ItemID="wd-lepsuit" ProductClass=" " UnitOfMeasure="EACH">
+        <Supplies>
+            <Supply AvailabilityType="TRACK" Quantity="7" SupplyType="ONHAND"/>
+        </Supplies>
+    </Item>
+</Items>

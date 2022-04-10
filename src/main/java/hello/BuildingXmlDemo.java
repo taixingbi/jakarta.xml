@@ -1,23 +1,26 @@
 package hello;
 
-import hello.model.Duke;
+import hello.model.UserBean;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
 
 import java.io.StringWriter;
 
-public class BuildingXml {
+
+public class BuildingXmlDemo {
     public static void main(String[] args) throws InterruptedException, JAXBException {
         System.out.println("----------BuildingXml start----------");
         StringWriter stringWriter = new StringWriter();
 
-        JAXBContext context = JAXBContext.newInstance(Duke.class);
+        JAXBContext context = JAXBContext.newInstance(UserBean.class);
         Marshaller marshaller = context.createMarshaller();
-        System.out.println( marshaller.toString() );
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+        UserBean userBean = new UserBean();
+        userBean.setXmlAttribute1("this is xmlAttribute1");
+        userBean.setXmlElement("this is XmlElement");
 
-        Duke duke1 = new Duke("java", 2);
-        marshaller.marshal(duke1, stringWriter);
+        marshaller.marshal(userBean, stringWriter);
         System.out.println(stringWriter.toString());
 
         System.out.println("----------BuildingXml end----------");
