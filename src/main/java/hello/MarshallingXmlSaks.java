@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class BuildingXmlSaks {
+public class MarshallingXmlSaks {
     public static void main(String[] args) throws InterruptedException, JAXBException {
-        System.out.println("----------BuildingXml start----------");
+        System.out.println("----------MarshallingXmlSaks start----------");
         StringWriter stringWriter = new StringWriter();
 
         ItemBean item = new ItemBean();
@@ -34,7 +34,7 @@ public class BuildingXmlSaks {
         marshaller.marshal(itemsBean, stringWriter);
         System.out.println(stringWriter.toString());
 
-        System.out.println("----------BuildingXml end----------");
+        System.out.println("----------MarshallingXmlSaks end----------");
     }
 }
 

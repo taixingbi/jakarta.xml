@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Demo XmlAttribute1="this is xmlAttribute1" XmlAttribute2="this is xmlAttribute2">
+    <xmlElement>this is XmlElement</xmlElement>
+</Demo>

@@ -20,7 +20,17 @@ public class UserBean {
         this.xmlAttribute1 = xmlAttribute1;
     }
 
+    public String getXmlAttribute1(){
+        return xmlAttribute1;
+    }
+
     public void setXmlElement(String xmlElement){
         this.xmlElement = xmlElement;
     }
+
+    public String getXmlElement(){
+        return xmlElement;
+    }
+
+
 }

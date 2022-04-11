@@ -37,9 +37,15 @@ public class ItemBean {
     public void setAdjustmentType(String adjustmentType){
         this.adjustmentType = adjustmentType;
     }
+    public String getAdjustmentType(){
+        return adjustmentType;
+    }
 
     public void setItemID(String itemID){
         this.itemID = itemID;
+    }
+    public String getItemID(){
+        return itemID;
     }
 
     public void setQuantity(String quantity){

@@ -8,9 +8,9 @@ import jakarta.xml.bind.Marshaller;
 import java.io.StringWriter;
 
 
-public class BuildingXmlDemo {
+public class MarshallingXmlDemo {
     public static void main(String[] args) throws InterruptedException, JAXBException {
-        System.out.println("----------BuildingXml start----------");
+        System.out.println("----------MarshallingXmlDemo start----------");
         StringWriter stringWriter = new StringWriter();
 
         JAXBContext context = JAXBContext.newInstance(UserBean.class);
@@ -23,7 +23,7 @@ public class BuildingXmlDemo {
         marshaller.marshal(userBean, stringWriter);
         System.out.println(stringWriter.toString());
 
-        System.out.println("----------BuildingXml end----------");
+        System.out.println("----------MarshallingXmlDemo end----------");
     }
 }
 

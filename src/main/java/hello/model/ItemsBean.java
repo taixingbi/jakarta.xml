@@ -12,4 +12,8 @@ public class ItemsBean {
     public void setItems(List<ItemBean> items) {
         this.items = items;
     }
-} 
+
+    public List<ItemBean> getItems( ) {
+        return items;
+    }
+}
